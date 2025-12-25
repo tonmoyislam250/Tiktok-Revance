@@ -6,7 +6,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # you can use rvmm-config-gen to generate a config
 
 [Tiktok]
-version = "latest"
+version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-included-patches = "'SIM spoof'"
+included-patches = "'SIM spoof' 'Spoof SIM provider' 'Change version code' 'Change package name' 'Spoof build info'"
 arch = "both"
