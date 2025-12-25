@@ -8,5 +8,5 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 [Tiktok]
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-included-patches = "'SIM spoof' 'Spoof SIM provider' 'Change version code' 'Change package name' 'Spoof build info'"
+included-patches = "'SIM spoof' 'Spoof SIM provider' 'Change version code'"
 arch = "both"
