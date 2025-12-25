@@ -10,3 +10,11 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "'SIM spoof'"
 arch = "both"
+enabled = false
+
+[Reddit-Extended]
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
