@@ -79,7 +79,7 @@ jobs:
         run: |
           if gh release list | awk -F '\t' '{print $1}' | grep -q "| v${{ steps.extract_version.outputs.VERSION }}$"; then
             echo "Release with version ${{ steps.extract_version.outputs.VERSION }} already exists. Skipping new release."
-            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "skip=false" >> $GITHUB_OUTPUT
           else
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
