@@ -1,5 +1,5 @@
-Tiktok (arm64-v8a): 43.2.1  
 Tiktok (arm-v7a): 43.2.1  
+Tiktok (arm64-v8a): 43.2.1  
 
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root the app from Play Store
   
@@ -11,4 +11,5 @@ Skipped:
 Patches: ReVanced/patches-5.47.0.rvp  
 Patches: ReVanced/patches-5.47.0.rvp  
 Patches: ReVanced/patches-5.47.0.rvp  
-Patches: ReVanced/patches-5.47.0.rvp          
+Patches: ReVanced/patches-5.47.0.rvp  
+Patches: ReVanced/patches-5.47.0.rvp            
