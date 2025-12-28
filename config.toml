@@ -9,7 +9,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 version = "latest"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 excluded-patches = "'Playback speed' 'Downloads' 'Sanitize sharing links' 'Feed filter' 'Settings' 'Disable login requirement' 'Fix Google login' 'Show seekbar' 'Remember clear display'"
-included-patches = "'SIM Spoof'"
+included-patches = "'SIM spoof'"
 patch-args = "com.zhiliaoapp.musically:SIM spoof:mcc=310, com.zhiliaoapp.musically:SIM spoof:mnc=260"
 arch = "both"
 
